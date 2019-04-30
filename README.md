@@ -3,7 +3,7 @@
     Yarn:       https://yarnpkg.com/en/docs/install
 
 ## Documentation/Tutorials
-    Ruby                   (Language)    http://rubylearning.com/satishtalim/tutorial.html
+    Ruby                   (Language)    <http://rubylearning.com/satishtalim/tutorial.html>
     HTML/CSS/JS            (Language)    https://www.w3schools.com/
     
     Rails ActiveRecord     (SQL)         https://guides.rubyonrails.org/active_record_basics.html
