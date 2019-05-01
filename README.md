@@ -15,9 +15,9 @@
             └── pages       Vue pages
     config/                 misc. config files, see below
     db/                     contains database schema, database file
-    lib/                    is for misc. code
+    lib/                    contains misc. code
     spec/acceptance         contains tests
-    vendor/                 is for 3rd-party files/code
+    vendor/                 contains 3rd-party files/code
     
     Other important files:
     API routes              config/routes.rb
