@@ -1,4 +1,4 @@
-## Install software
+## Download and install software
     Ruby 2.4.6: https://rubyinstaller.org/downloads/
     Yarn:       https://yarnpkg.com/en/docs/install
 
@@ -25,13 +25,28 @@
     config                 (Config)      https://github.com/railsconfig/config
     
 ## Install packages
-    # Install dependencies
+    # If bundler is not installed
     gem install bundler
+
+    # Install new dependencies
     bundle install
     yarn install
     
-## Run server (two separate consoles)
+## Run server in developer mode (two separate consoles)
+    # Start developer environment
     ruby .\bin\webpack-dev-server
+    
+    # Start server
     rails s
-   
-    (Visit localhost:3000 in a browser
+    
+    # View webpage
+    http://localhost:3000
+
+## Run tests (located in /spec/acceptance)
+    bundle exec rspec
+    
+## Generate API documentation
+    bundle exec rails docs:generate
+    
+    # Start server (rails s)
+    http://localhost:3000/api/docs

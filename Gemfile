@@ -75,5 +75,7 @@ gem 'immigrant'
 gem 'activerecord-import'
 
 # Testing, API documentation
-gem 'rspec', '~> 3.0'
+gem 'rspec-rails', '~> 3.0'
+gem 'rspec_api_documentation'
+gem 'apitome'
 

@@ -1,3 +1,4 @@
+# https://semaphoreci.com/community/tutorials/getting-started-with-rspec
 # Example test specification
 # Run tests with 'bundle exec rspec'
 

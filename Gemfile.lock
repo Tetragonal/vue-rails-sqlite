@@ -46,6 +46,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    apitome (0.3.0)
+      kramdown
+      railties
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
@@ -135,6 +138,7 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    kramdown (2.1.0)
     loofah (2.2.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -200,6 +204,14 @@ GEM
     rspec-mocks (3.8.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
+    rspec-rails (3.8.2)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+      rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     rspec_api_documentation (6.1.0)
       activesupport (>= 3.0.0)
@@ -260,6 +272,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-import
+  apitome
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15, < 4.0)
@@ -274,7 +287,7 @@ DEPENDENCIES
   nokogiri
   puma (~> 3.11)
   rails (~> 5.2.0)
-  rspec (~> 3.0)
+  rspec-rails (~> 3.0)
   rspec_api_documentation
   sass-rails (~> 5.0)
   selenium-webdriver
