@@ -20,13 +20,13 @@
     vendor/                 is for 3rd-party files/code
     
     Other important files:
-    API routes:             config/routes.rb
-    API:                    app/controllers/api/v1
-    Config:                 config/settings.yml
-    Tests:                  spec/acceptance
-    Database schema:        db/schema.rb
-    Database seeds:         db/seeds.rb
-    Database:               db/*.sqlite3
+    API routes              config/routes.rb
+    API                     app/controllers/api/v1
+    Config                  config/settings.yml
+    Tests                   spec/acceptance
+    Database schema         db/schema.rb
+    Database fake data      db/seeds.rb
+    Database                db/*.sqlite3
     Frontend API calls      app/javascript/api.js
     Vue global functions    app/javascript/mixin.js
     Vue global state        app/javascript/store.js
