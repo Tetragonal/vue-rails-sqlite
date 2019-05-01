@@ -1,5 +1,5 @@
 ## Install software
-    Ruby 2.4.4: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.4.zip
+    Ruby 2.4.6: https://rubyinstaller.org/downloads/
     Yarn:       https://yarnpkg.com/en/docs/install
 
 ## Documentation/Tutorials
@@ -13,15 +13,25 @@
     Vuex                   (State)       https://vuex.vuejs.org/
     Bootstrap+Vue          (CSS)         https://bootstrap-vue.js.org/
     
+    RSpec                  
+                           (Test)        https://semaphoreci.com/community/tutorials/getting-started-with-rspec
+                           (API Test)    https://blog.eq8.eu/article/rspec-json-api-testing.html
+                           (API Docs)
+    
+    Travis CI              (CI)
+    
     Misc libraries:
     faker                  (Fake Data)   https://github.com/stympy/faker
     config                 (Config)      https://github.com/railsconfig/config
     
 ## Install packages
     # Install dependencies
+    gem install bundler
     bundle install
     yarn install
     
-    # Run server (two separate consoles)
+## Run server (two separate consoles)
     ruby .\bin\webpack-dev-server
     rails s
+   
+    (Visit localhost:3000 in a browser

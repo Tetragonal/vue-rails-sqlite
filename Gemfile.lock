@@ -80,6 +80,7 @@ GEM
       dry-validation (>= 0.10.4)
     crass (1.0.4)
     deep_merge (1.2.1)
+    diff-lcs (1.3)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
     dry-configurable (0.7.0)
@@ -148,6 +149,7 @@ GEM
     minitest (5.11.3)
     msgpack (1.2.4-x64-mingw32)
     multi_json (1.13.1)
+    mustache (1.1.0)
     nio4r (2.3.1)
     nokogiri (1.8.4-x64-mingw32)
       mini_portile2 (~> 2.3.0)
@@ -186,6 +188,23 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
+    rspec_api_documentation (6.1.0)
+      activesupport (>= 3.0.0)
+      mustache (~> 1.0, >= 0.99.4)
+      rspec (~> 3.0)
     rubyzip (1.2.1)
     sass (3.5.6)
       sass-listen (~> 4.0.0)
@@ -255,6 +274,8 @@ DEPENDENCIES
   nokogiri
   puma (~> 3.11)
   rails (~> 5.2.0)
+  rspec (~> 3.0)
+  rspec_api_documentation
   sass-rails (~> 5.0)
   selenium-webdriver
   sqlite3
@@ -264,7 +285,7 @@ DEPENDENCIES
   webpacker
 
 RUBY VERSION
-   ruby 2.4.4p296
+   ruby 2.4.6p354
 
 BUNDLED WITH
    1.16.2
