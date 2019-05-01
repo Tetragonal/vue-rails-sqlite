@@ -2,6 +2,36 @@
     Ruby 2.4.6: https://rubyinstaller.org/downloads/
     Yarn:       https://yarnpkg.com/en/docs/install
 
+## Project Structure
+    Folders and their purpose:
+    
+    app
+    ├── controllers
+    │   └── api
+    │       └── v1          API
+    └── javascript
+        └── components
+            ├── misc        Vue components
+            └── pages       Vue pages
+    config/                 misc. config files, see below
+    db/                     contains database schema, database file
+    lib/                    is for misc. code
+    spec/acceptance         contains tests
+    vendor/                 is for 3rd-party files/code
+    
+    Other important files:
+    API routes:             config/routes.rb
+    API:                    app/controllers/api/v1
+    Config:                 config/settings.yml
+    Tests:                  spec/acceptance
+    Database schema:        db/schema.rb
+    Database seeds:         db/seeds.rb
+    Database:               db/*.sqlite3
+    Frontend API calls      app/javascript/api.js
+    Vue global functions    app/javascript/mixin.js
+    Vue global state        app/javascript/store.js
+    Vue router              app/javascript/router.js
+
 ## Documentation/Tutorials
     Ruby                   (Language)    http://rubylearning.com/satishtalim/tutorial.html
     HTML/CSS/JS            (Language)    https://www.w3schools.com/
