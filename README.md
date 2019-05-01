@@ -21,9 +21,9 @@
     
     Other important files:
     API routes              config/routes.rb
-    API                     app/controllers/api/v1/*_controller.rb
+    API                     app/controllers/api/v1
     Config                  config/settings.yml
-    Tests                   spec/acceptance/*_spec.rb
+    Tests                   spec/acceptance
     Database schema         db/schema.rb
     Database fake data      db/seeds.rb
     Database                db/*.sqlite3
