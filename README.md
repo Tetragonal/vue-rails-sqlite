@@ -46,7 +46,7 @@
     RSpec                  
                            (Test)        https://semaphoreci.com/community/tutorials/getting-started-with-rspec
                            (API Test)    https://blog.eq8.eu/article/rspec-json-api-testing.html
-                           (API Docs)
+                           (API Docs)    https://blog.codeship.com/producing-documentation-for-your-rails-api/
     
     Travis CI              (CI)
     
